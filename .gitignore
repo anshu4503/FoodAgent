@@ -1,0 +1,76 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Test reports
+test-results/
+playwright-report/
+coverage/
+htmlcov/
+
+# Build files
+dist/
+build/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/.venv/
+venv/
+
+# Next.js
+frontend/.next/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build files
+frontend/out/
+frontend/build/
+frontend/tsconfig.tsbuildinfo
+
+# Test results
+test-results/
+playwright-report/
+coverage/
+
+# Local databases
+*.db
